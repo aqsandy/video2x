@@ -3,7 +3,7 @@
 # Date Created: May 12, 2020
 # Last Modified: May 28, 2020
 
-name: Video2X Nightly Build
+name: Video2X Nightly Build - with muti-thread upscaling
 
 on:
   push:
