@@ -47,7 +47,7 @@ class WrapperMain:
         parser.add_argument("-o", type=str, help=argparse.SUPPRESS)  # help="output image path (png) or directory")
         parser.add_argument("-n", type=int, choices=range(-1, 11), help="denoise level")
         parser.add_argument("-s", type=int, help="upscale ratio")
-        parser.add_argument("-t", type=int, help="tile size (>=32)")
+        parser.add_argument("-t", type=int, help="tile size (>=32); set 0 as auto")
         parser.add_argument("-m", type=str, help="srmd model path")
         parser.add_argument("-g", type=int, help="gpu device to use")
         parser.add_argument("-j", type=str, help="thread count for load/proc/save")

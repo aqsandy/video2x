@@ -111,7 +111,7 @@ class Upscaler:
         image_output_extension: str = ".png",
         video_output_extension: str = ".mp4",
         preserve_frames: bool = False,
-        downscaler_threads: int = 12
+        downscaler_threads: int = 0
     ):
 
         # required parameters
